@@ -1,0 +1,144 @@
+@media (max-width:1370px){
+    .home{
+        min-height: 70vh;
+        object-fit: cover;
+    } 
+    .newseller .container{
+        display: flex;
+        justify-content: center;
+     }
+}
+
+@media (max-width:1170px){
+
+    /* general css */
+.section-subtitle{
+    max-width: 60%;
+}
+
+
+
+}
+
+
+@media (max-width:991px){
+
+/* general css */
+/* .about  .banner_section,
+.best-product .banner_section,
+.gallery .banner_section,
+.pricing .banner_section,
+.review .banner_section,
+.contact .banner_section{
+    
+    padding-top: 12.5rem;
+    padding-bottom: 3rem;
+} */
+h1{
+    font-size: 7rem;
+    line-height: 1;
+    letter-spacing: 1rem;
+}
+.header-extradiv{
+    width: 100%;
+    height: 50vh;
+    /* margin: 3rem 0; */
+    text-align: center;}
+/* button */
+
+.main-btn{
+    font-weight: 300;
+    font-size: 1rem;
+    width: 10%;
+}
+
+
+/* 01 navbar css */
+.header .navbar{
+    background-size: cover;
+    padding-left: 2rem;
+    padding-right: 2rem;
+}
+.header .navbar-nav{
+    margin-top: 2rem;
+}
+.header .navbar-nav .nav-link{
+    padding: 0.2rem 0.5rem;
+    margin-bottom: 2rem;
+}
+
+.header .header-right span{
+    padding: 0.2rem 0.5rem;
+}
+.content{
+    text-align: center;
+}
+.about-box{
+    box-shadow: none;
+    margin-top: 6rem;
+}
+.contactt-map{
+    height: 300px;
+}
+}
+
+
+@media (max-width:767px){
+
+
+/* general css */
+body,html{
+    font-size: 8px;
+}
+.section-subtitle{
+    max-width: 80%;
+}
+.home{
+    min-height: 70vh;
+    object-fit: cover;
+}     
+.home.center-div{
+    height: 70vh;
+}
+
+.about-box{
+    box-shadow: none;
+}
+.header-extradiv{
+    display: none;
+ }
+    
+/* .header-extradiv.extra-div{
+    border-right: none;
+} */
+.contactt-map{
+    height: 300px;
+}
+}
+
+
+    
+
+
+
+@media (max-width:590px){
+
+ /* general css */
+ body,html{
+    font-size: 8px;
+ }
+ .header-extradiv{
+    display: none;
+ }
+ .main-btn{
+    font-weight: 300;
+    font-size: 1rem;
+    width: 10%;
+    padding: 3px;
+}
+.home{
+    min-height: 70vh;
+    object-fit: cover;
+}     
+
+}
